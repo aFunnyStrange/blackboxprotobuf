@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "blackboxprotobuf"
+version = "2.0.0"
+description = "Restructured version of blackboxprotobuf with two core APIs and async-friendly wrappers."
+authors = [
+    {name = "Ryan Winkelmaier (original author of blackboxprotobuf)", email = "ryan.winkelmaier@nccgroup.com" },
+    {name = "aFunnyStrange (restructured and extended version)"}
+]
+license = "MIT"
+readme = "README.md"
+keywords = ["protobuf"]
+
+[project.urls]
+Homepage = "https://github.com/aFunnyStrange/blackboxprotobuf"

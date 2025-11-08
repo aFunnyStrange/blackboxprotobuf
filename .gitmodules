@@ -1,6 +1,0 @@
-[submodule "burp-deps/six"]
-	path = burp/deps/six
-	url = https://github.com/benjaminp/six
-[submodule "lib/tests/deps/protobuf"]
-	path = lib/tests/deps/protobuf
-	url = https://github.com/protocolbuffers/protobuf.git
