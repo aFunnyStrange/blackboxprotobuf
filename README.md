@@ -4,7 +4,7 @@
 This project is a restructured and extended version of [blackboxprotobuf](https://github.com/nccgroup/blackboxprotobuf) by Ryan Winkelmaier.
 
 - Retained only the two most useful APIs
-- Added higher-level async-friendly wrappers
+- Added higher-level wrappers
 - Improved code structure for maintainability
 
 Blackbox protobuf library is a Python module for decoding and re-encoding protobuf
@@ -47,4 +47,7 @@ override the guessed type. Custom type definitions also allow naming of fields t
 improve user friendliness.
 
 # Usage
-See [tests/](https://github.com/aFunnyStrange/blackboxprotobuf/tree/main/tests)
+All APIs are encapsulated in the `ProtobufFactory` class.
+
+Example usage can be found in the test directory:  
+[tests/](https://github.com/aFunnyStrange/blackboxprotobuf/tree/main/tests)
